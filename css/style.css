@@ -23,6 +23,8 @@
 }
 
 .image {
+    vertical-align: center;
+    width: 100%;
     border-radius: 25px;
 }
 
