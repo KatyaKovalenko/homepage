@@ -11,15 +11,11 @@
   
 .left_block {
     border-radius: 25px;
-    background-color: #DF6262;
-    width:40%;
-    color: #ffffe0;
+    width:48%;
     font-family: Times New Roman, sans-serif;
     font-size: 43px;
     float: left;
-    display:inline-block;
-    padding: 20px;
-    margin: 10px 10px 10px 40px;
+    box-sizing: border-box;
 }
 
 .image {
@@ -29,16 +25,23 @@
 }
 
 .block1 {
-    border-radius: 25px;
-    border: dotted #BF3030;
-    width: 50%;
+    width: 48%;
     height: 50%;
     font-family: Times New Roman, sans-serif;
     font-size: 30px;
-    display:inline-block;
-    padding: 20px;
     float: right;
+    box-sizing: border-box;
+}
+.block-inner {
     margin: 10px;
+    border-radius: 25px;
+    border: dotted #BF3030;
+    padding: 20px;
+}
+
+.left_block .block-inner {
+    background-color: #DF6262;
+    color: #ffffe0;    
 }
 
 .time_line {
